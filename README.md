@@ -74,7 +74,9 @@ with zipfile.ZipFile('fifa-21-messy-raw-dataset-for-cleaning-exploring.zip', 'r'
 df = pd.read_csv('fifa21_raw_data.csv')
 
 
-Run data cleaning and transformation tasks:
+
+# Run data cleaning and transformation tasks:
+
 
 Task 1: Making the Height and Weight columns have the appropriate data type
 
