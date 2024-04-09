@@ -15,7 +15,7 @@ The goal of this project is to clwan and tranform the data in a dataset named fi
 The dataset used in this project is sourced from Kaggle and contains information about football
 players. The dataset was obtained using the Kaggle API by executing the following command:
 
-!kaggle datasets download -d yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring 
+    !kaggle datasets download -d yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring 
 
 # Format
 
@@ -25,8 +25,10 @@ and columns representing various attributes such as player name,height, weight,t
 
 # Unzip the dataset file
 
-with zipfile.ZipFile('fifa-21-messy-raw-dataset-for-cleaning-exploring.zip', 'r') as zip_ref:
-    # Extract all the contents to the extraction directory
+    with zipfile.ZipFile
+    
+    ('fifa-21-messy-raw-dataset-for-cleaning-exploring.zip', 'r') as zip_ref:
+  
     zip_ref.extractall('.')
 
 
@@ -53,25 +55,33 @@ The dataset has 18978 rows and 77 columns:
 
  1. Install kaggle & download dataset with Kaggle API
 
- %pip install kaggle
+        %pip install kaggle
 
  ## download files with kaggle API
-!kaggle datasets download -d yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring
+     !kaggle datasets download -d yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring
+
 
 2. Import libraries
 
-import pandas as pd
-import numpy as np
-import zipfile
+       import pandas as pd
+
+       import numpy as np
+
+       import zipfile
+
 
 3. Extract zip file and read CSV file
 
-with zipfile.ZipFile('fifa-21-messy-raw-dataset-for-cleaning-exploring.zip', 'r') as zip_ref:
-    # Extract all the contents to the extraction directory
-    zip_ref.extractall('.')
+
+       with zipfile.ZipFile
+
+       ('fifa-21-messy-raw-dataset-for-cleaning-exploring.zip', 'r') as zip_ref:
+
+       zip_ref.extractall('.')
 
  ### load datasets
-df = pd.read_csv('fifa21_raw_data.csv')
+
+    df = pd.read_csv('fifa21_raw_data.csv')
 
 
 
