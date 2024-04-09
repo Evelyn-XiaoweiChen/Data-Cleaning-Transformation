@@ -33,7 +33,7 @@ with zipfile.ZipFile('fifa-21-messy-raw-dataset-for-cleaning-exploring.zip', 'r'
 # Data Summary
 
 The dataset has 18978 rows and 77 columns:
-![alt text](<Screenshot 2024-04-08 204449.png>)
+![alt text](<dataStructure.png>)
 
  The goal of this project is to clean and transform the data in this dataset 
  to make it suitable for analysis and further processing.
